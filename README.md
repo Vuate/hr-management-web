@@ -8,7 +8,7 @@
 - [x] shadcn/ui yapılandırıldı
 - [x] GitHub bağlantısı yapıldı
 - [x] Development branch oluşturuldu ✅ *(şu an buradayız)*
-- [ ] README.md dosyası tamamlandı
+- [x] README.md dosyası tamamlandı
 
 ---
 
