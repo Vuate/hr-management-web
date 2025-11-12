@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+---
 
-## Getting Started
+## 🧠 Yapılacaklar Listesi
 
-First, run the development server:
+### 🔹 Proje Başlangıcı
+- [x] Next.js + TypeScript projesi kuruldu
+- [x] Tailwind CSS eklendi
+- [x] shadcn/ui yapılandırıldı
+- [x] GitHub bağlantısı yapıldı
+- [x] Development branch oluşturuldu ✅ *(şu an buradayız)*
+- [ ] README.md dosyası tamamlandı
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🔹 Auth (Giriş & Kayıt)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [ ] Supabase veya PostgreSQL kurulumu
+- [ ] E-posta & Şifre ile kayıt
+- [ ] Login sayfası
+- [ ] JWT veya Supabase session ile kimlik doğrulama
+- [ ] Rol bazlı yönlendirme (Admin / Employee)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+### 🔹 Dashboard
 
-To learn more about Next.js, take a look at the following resources:
+- [ ] Çalışan sayısı, departman sayısı, aktif izin sayısı
+- [ ] Ortalama maaş istatistiği
+- [ ] Grafik bileşenleri (Recharts)
+- [ ] Responsive tasarım
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 🔹 Employees (Çalışan Yönetimi)
 
-## Deploy on Vercel
+- [ ] Listeleme (DataTable)
+- [ ] Ekleme formu (Add Employee)
+- [ ] Düzenleme & Silme
+- [ ] Departman bazlı filtreleme
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 🔹 Departments (Departman Yönetimi)
+
+- [ ] Listeleme
+- [ ] Ekleme / Silme
+- [ ] Departmana ait çalışanları görüntüleme
+
+---
+
+### 🔹 Leave & Salary (İzin & Maaş Takip)
+
+- [ ] Çalışan izin talebi oluşturma
+- [ ] Yönetici onay süreci
+- [ ] Maaş listesi ve ortalama maaş
+- [ ] Durum bazlı filtreleme
+
+---
+
+### 🔹 Rol Bazlı Yetkilendirme
+
+- [ ] Admin tüm verileri yönetebilir
+- [ ] Employee sadece kendi verilerini görebilir
+
+---
+
+## 🧑‍💻 Geliştirici
+
+👤 **Arda Emreci (Vuate)**  
+💬 “Her commit bir adım ileri!” 🚀  
+📍 Istanbul Arel University
+
+---
+
+## 🔄 Katkı ve Güncelleme Takibi
+
+> Her tamamlanan adımda:
+>
+> 1. README'deki kutucuğu ✅ olarak işaretle
+> 2. Commit at:
+>    ```bash
+>    git add .
+>    git commit -m "docs: update progress in README"
+>    git push origin development
+>    ```
+> 3. GitHub repo sayfanda ilerlemen otomatik görünür 💪
