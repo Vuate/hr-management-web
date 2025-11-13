@@ -14,8 +14,8 @@
 
 ### 🔹 Auth (Giriş & Kayıt)
 
-- [ ] Supabase veya PostgreSQL kurulumu
-- [ ] E-posta & Şifre ile kayıt
+- [x] Supabase veya PostgreSQL kurulumu
+- [x] E-posta & Şifre ile kayıt
 - [ ] Login sayfası
 - [ ] JWT veya Supabase session ile kimlik doğrulama
 - [ ] Rol bazlı yönlendirme (Admin / Employee)
